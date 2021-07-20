@@ -1,0 +1,108 @@
+
+     @import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
+ *{
+     font-family: 'Rhodium Libre', serif;
+ }
+
+ html{
+    background-image: url("back2.pdf");
+    background-size: cover;
+}
+
+.main-header ul{
+    flex-grow: 1;
+    margin : 15px;
+    text-align: end;
+    color: #F6FAFB;
+}
+
+.main-header li{
+    display: inline;
+    padding: 0 4%;
+}
+
+.nav a:hover {
+    background-color: rgba(192, 214, 223, .3)
+}
+
+.nav a{
+    display: inline block;
+    padding : .5em;
+    color : #F6FAFB;
+    text-decoration: none;
+
+}
+
+.name{
+    margin : 15px;
+    color: #F6FAFB;
+}
+
+.main-header{
+    display: flex;
+}
+
+.blue-flower {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.words {
+    font-family: 'Rhodium Libre';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 40px;
+    text-align: center;
+    color: #F6FAFB;
+}
+
+.white-flower{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact{
+    color: #F6FAFB;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.overview{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 50px;
+    color: #F6FAFB;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projects-overview {
+    margin: 30px;
+}
+
+.projects-overview-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color:#F6FAFB;
+    margin-bottom: 15px;
+}
+
+.projects-overview-image {
+    height:320px;
+}
+
+.all-projects {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
