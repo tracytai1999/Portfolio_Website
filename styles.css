@@ -4,8 +4,8 @@
      font-family: 'Rhodium Libre', serif;
  }
 
- html{
-    background-image: url("pics/back2.pdf");
+html{
+    background-image: url("pics/back3.pdf");
     background-size: cover;
 }
 
@@ -13,33 +13,36 @@
     flex-grow: 1;
     margin : 15px;
     text-align: end;
-    color: #F6FAFB;
+    color: #cacaca;
 }
 
 .main-header li{
     display: inline;
-    padding: 0 4%;
+    padding: 0 3%;
 }
 
+
 .nav a:hover {
-    background-color: rgba(192, 214, 223, .3)
+    background-color: rgba(192, 214, 223, .3);
+    
 }
 
 .nav a{
     display: inline block;
     padding : .5em;
-    color : #F6FAFB;
+    color : #cacaca;
     text-decoration: none;
 
 }
 
 .name{
     margin : 15px;
-    color: #F6FAFB;
+    color: #cacaca;
 }
 
 .main-header{
     display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .blue-flower {
@@ -52,26 +55,13 @@
     font-family: 'Rhodium Libre';
     font-style: normal;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 2em;
     line-height: 40px;
     text-align: center;
-    color: #F6FAFB;
+    color: #cacaca;
 }
 
-.white-flower{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.contact{
-    color: #F6FAFB;
-    margin: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
 
 .overview{
     display: block;
@@ -105,4 +95,19 @@
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.white-flower{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact{
+    color: #F6FAFB;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
