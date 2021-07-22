@@ -1,113 +1,38 @@
 
      @import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
+     @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
  *{
-     font-family: 'Rhodium Libre', serif;
+     font-family: "Lato", serif;
  }
 
-html{
-    background-image: url("pics/back3.pdf");
+.w3-wide {
+     letter-spacing: 10px;
+}
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+html, body {
+    height: 100%;
+    color: #777;
+    line-height: 80%;
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-.main-header ul{
-    flex-grow: 1;
-    margin : 15px;
-    text-align: end;
-    color: #cacaca;
+.bgimg-1 {
+    background-image: url('pics/cloud.PNG');
+    min-height: 100%;
 }
-
-.main-header li{
-    display: inline;
-    padding: 0 3%;
+.bgimg-2 {
+    background-image: url('pics/cloud.PNG') ;
+    min-height: 400px;
 }
-
-
-.nav a:hover {
-    background-color: rgba(192, 214, 223, .3);
-    
-}
-
-.nav a{
-    display: inline block;
-    padding : .5em;
-    color : #cacaca;
-    text-decoration: none;
-
-}
-
-.name{
-    margin : 15px;
-    color: #cacaca;
-}
-
-.main-header{
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.blue-flower {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.words {
-    font-family: 'Rhodium Libre';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2em;
-    line-height: 40px;
-    text-align: center;
-    color: #cacaca;
-}
-
-
-
-.overview{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 50px;
-    color: #F6FAFB;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-}
-
-.projects-overview {
-    margin: 30px;
-}
-
-.projects-overview-title {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 1.2em;
-    color:#F6FAFB;
-    margin-bottom: 15px;
-}
-
-.projects-overview-image {
-    height:320px;
-}
-
-.all-projects {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.white-flower{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contact{
-    color: #F6FAFB;
-    margin: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.bgimg-3 {
+    background-image: url('pics/cloud.PNG') ;
+    min-height: 400px;
 }
