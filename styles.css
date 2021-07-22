@@ -12,10 +12,10 @@
     cursor: pointer;
 }
 
-html, body {
+html, body, p{
     height: 100%;
     color: #777;
-    line-height: 80%;
+    line-height: 1.8;
 }
 .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
